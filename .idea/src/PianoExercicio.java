@@ -17,4 +17,11 @@ public class PianoExercicio extends InstrumentoMusical{
         super.afinar();
         System.out.println("Ajustando a tensão das cordas internas do piano");
     }
+
+    @Override
+    public void mostrarInformacoes()
+    {
+        super.mostrarInformacoes();
+        System.out.println("Número de teclas: " + numeroTeclas);
+    }
 }

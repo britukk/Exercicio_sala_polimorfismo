@@ -17,3 +17,11 @@ public class SaxofoneExercicio extends InstrumentoMusical {
         super.afinar();
         System.out.println("Ajustando a embocadura e as chaves do saxofone")
     }
+
+    @Override
+    public void mostrarInformacoes()
+    {
+        super.mostrarInformacoes();
+        System.out.println("Número de teclas: " + numeroTeclas);
+    }
+}

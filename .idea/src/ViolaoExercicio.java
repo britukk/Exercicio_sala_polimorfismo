@@ -19,7 +19,9 @@ public class ViolaoExercicio extends InstrumentoMusical {
     }
 
     @Override
-    public void mostrarInformacoes(){
-
+    public void mostrarInformacoes()
+    {
+        super.mostrarInformacoes();
+        System.out.println("Número de teclas: " + numeroTeclas);
     }
 }
